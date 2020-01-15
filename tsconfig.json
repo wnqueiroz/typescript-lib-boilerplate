@@ -7,7 +7,8 @@
     "declarationDir": "dist/types",
     "outDir": "dist/lib",
     "strict": true,
-    "noLib": false
+    "noLib": false,
+    "lib": ["es6", "dom"]
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "**/__tests__/*"]
