@@ -1,0 +1,23 @@
+{
+  "name": "typescript-lib-boilerplate",
+  "version": "1.0.0",
+  "main": "dist/lib/index.js",
+  "author": {
+    "name": "William Queiroz",
+    "email": "wnqueiroz@outlook.com"
+  },
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "rimraf": "3.0.0",
+    "typescript": "3.7.4"
+  }
+}
