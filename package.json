@@ -25,7 +25,7 @@
     "jest-mock-console": "1.0.0",
     "prettier": "1.19.1",
     "rimraf": "3.0.0",
-    "ts-jest": "24.3.0",
+    "ts-jest": "26.0.0",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.1.0",
